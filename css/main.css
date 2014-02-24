@@ -66,7 +66,7 @@ a:visited { color: #007883; }
   font-size: 115%;
   text-align: justify;
   width: 100%;
-  margin: 0 auto 2em;
+  margin: auto;
   line-height: 1.5em;
 }
 
@@ -104,11 +104,10 @@ a:visited { color: #007883; }
 
 .footer {
   font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
+  color: #007883;
   overflow: hidden;
   text-align:center;
+  background-color:#0E3B4A;
 }
 
 /* tweet fix */
@@ -155,6 +154,7 @@ hr {
 .post {
   width:80%;
   margin:2em auto;
+  min-height:250px;
 }
 
 .excerpt {
