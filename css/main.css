@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; line-height:1em; }
 
 h1 { margin-bottom: 1em; color:#0E3B4A; font-size:3em;}
-p { margin: 1em 0; color:#3e3e3e;}
+p { margin: 1em 0; color:#3e3e3e; font-size:1.5em; line-height:1.3em;}
 
 a         { color: #007883; text-decoration:none;}
 a:hover   { color: #51ADA6; }
@@ -71,7 +71,7 @@ a:visited { color: #007883; }
 }
 
 .header { 
-  background: url(/img/bg.png) no-repeat center center fixed; 
+  background: url({{ site.url }}/img/bg.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -147,6 +147,10 @@ hr {
   .meta {
     text-align:left;
     width:100%;
+  }
+
+  p {
+    font-size:1.2em;
   }
 }
 
